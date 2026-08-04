@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    background:#f1f1f1;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    width:650px;
+    margin:auto;
+    background:white;
+    padding:28px;
+    min-height:100vh;
+}
+h1{
+    margin-bottom:30px;
+}
+label{
+
+    display:block;
+    font-size:18px;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+input,
+select,
+textarea{
+
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    box-sizing:border-box;
+}
+textarea{
+
+    resize:vertical;
+}
+button{
+
+    padding:10px 18px;
+    font-size:16px;
+    margin-right:10px;
+    cursor:pointer;
+}
+.error{
+
+    color:red;
+    font-size:16px;
+    margin-top:4px;
+    min-height:22px;
+}
+#storedData{
+
+    border:1px solid gray;
+    padding:15px;
+    font-size:18px;
+    margin-top:15px;
+}
